@@ -1,0 +1,49 @@
+*{
+    border: 0;
+    margin: 0;
+}
+body{
+    background: #353d2f;
+}
+img{
+    box-sizing: border-box;
+    height: 200px;
+    border: 5px double gold;
+    border-radius: 15px;
+}
+p{
+    color: white;
+    font-size: 1.2rem;
+}
+.boxs{
+    background-color: #7c7a7a;
+    height: 200px;
+    margin: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+#box1 img,#box3 img{
+    float: left;
+}
+#box2 img,#box4 img{
+    float: right;
+}
+
+@media all and (max-width:890px){
+    .boxs{
+        height: 400px;
+    }
+    #box1 p,#box3 p{
+        clear: left;
+    }
+    #box2 p,#box4 p{
+        clear: right;
+    }
+}
+
+@media all and (max-width:600px){
+    .boxs{
+        height: 600px;
+    }
+}
+

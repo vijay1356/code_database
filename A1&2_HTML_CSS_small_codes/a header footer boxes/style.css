@@ -1,0 +1,49 @@
+*{
+    border: 0;
+    margin: 0;
+}
+    *{
+        font-size: large;
+    }
+    #headder{
+        background-color: black;
+        height: 60px;
+        
+    }
+    #logo{
+        color: #f08804;
+        font-size: larger;
+    }
+    button{
+        background-color: #f08804;
+    }
+    a{
+        margin-right: 250px;
+        text-decoration: none;
+        color: white;
+    }
+.contentbox{
+    height: 300px;
+    width: 300px;
+    border: 10px double black;
+    display: inline-block;
+    text-align: center;
+    color: rgb(0, 0, 0) ;
+}
+#a{
+    background-color: rgba(225, 0, 0, 0.5);
+}
+#b{
+    background-color: rgba(0, 255, 76, 0.5);
+}
+#c{
+    background-color: rgba(0, 225, 255, 0.5);
+}
+#footer{
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+#content{
+    height: 613px;
+}
