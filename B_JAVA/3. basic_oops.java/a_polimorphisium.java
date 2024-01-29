@@ -16,7 +16,7 @@ class student {
     }
 }
 
-public class d_polimorphisium {
+public class a_polimorphisium {
     public static void main(String[] args) {
         student s1 = new student();
         s1.name = "aman";

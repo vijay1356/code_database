@@ -9,7 +9,7 @@ class horse implements animal {
     }
 }
 
-public class h_interface {
+public class d_interface {
     public static void main(String[] args) {
         horse h = new horse();
         h.walk();

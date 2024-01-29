@@ -14,7 +14,7 @@ class account {
     }
 }
 
-public class f_access_modifiers {
+public class b_access_modifiers {
     public static void main(String[] args) {
         account s1 = new account();
         s1.name = "vijay";

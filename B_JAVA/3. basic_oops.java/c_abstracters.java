@@ -27,7 +27,7 @@ class chicken extends animal {
     }
 }
 
-public class g_abstracters {
+public class c_abstracters {
     public static void main(String[] args) {
         horse h = new horse();
         h.walk();
