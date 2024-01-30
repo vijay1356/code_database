@@ -1,0 +1,5 @@
+you can use a arduino and equipment with the same code
+if u don't have a arduino kit 
+u can use the online simulator 
+link to the simulator(tinkercad) : https://www.tinkercad.com
+in web path ..  design>new>circuit
