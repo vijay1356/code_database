@@ -1,7 +1,4 @@
-
-package L_reccursion.B_reccursion_med_level;
-
-public class tower {
+public class e_tower {
     public static void tow(int n,String source,String helper,String destination) {
         if(n==1){
             System.out.println("transfer disk "+ n+ " from "+helper+" to "+destination );

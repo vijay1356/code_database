@@ -1,8 +1,6 @@
-package L_reccursion.B_reccursion_med_level;
-
 import java.util.Scanner;
 
-public class reverse_string {
+public class c_reverse_string {
     public static void rev(int n, String s) {
         if (n == 0) {
             System.out.println(s.charAt(n));

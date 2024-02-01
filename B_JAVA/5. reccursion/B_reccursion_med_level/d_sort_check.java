@@ -1,8 +1,6 @@
-package L_reccursion.B_reccursion_med_level;
-
 import java.util.Scanner;
 
-public class sort_check {
+public class d_sort_check {
     public static int sd = 0;
 
     public static void prn(int arr[], int size) {
