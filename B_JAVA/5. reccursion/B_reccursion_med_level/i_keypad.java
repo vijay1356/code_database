@@ -1,5 +1,3 @@
-package L_reccursion.B_reccursion_med_level;
-
 public class i_keypad {// EDIT
     public static String keypad[] = { ".", "abc", "def", "ghi", "jkl", "mno", "pqrs", "tu", "vwx", "yz" };
 

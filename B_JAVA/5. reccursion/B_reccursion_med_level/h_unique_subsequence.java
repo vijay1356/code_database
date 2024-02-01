@@ -1,5 +1,3 @@
-package L_reccursion.B_reccursion_med_level;
-
 import java.util.HashSet;
 
 //EDIT

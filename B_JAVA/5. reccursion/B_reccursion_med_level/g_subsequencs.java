@@ -1,5 +1,3 @@
-package L_reccursion.B_reccursion_med_level;
-
 //input the word from the user 
 // try to put the vaules beside each other and put comma between 
 // try to arrage them in size order one below other 
