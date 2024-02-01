@@ -1,8 +1,6 @@
-package L_reccursion.B_reccursion_med_level;
-
 //Move all 'x' to the end of the string
 // ex. anxbd
-public class all_x_to_the_end {
+public class a_all_x_to_the_end {
     // static variable
     public static int sd = 0;
     public static int counter = 0;

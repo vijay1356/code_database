@@ -1,8 +1,6 @@
-package L_reccursion.B_reccursion_med_level;
-
 import java.util.Scanner;
 
-public class first_and_last {
+public class b_first_and_last {
     public static int f = -1;
     public static int l = -1;
     public static int o = 1;

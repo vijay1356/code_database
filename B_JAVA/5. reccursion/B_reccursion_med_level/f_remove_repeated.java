@@ -1,6 +1,4 @@
 
-package L_reccursion.B_reccursion_med_level;
-
 //Remove duplicates in a string.
 public class f_remove_repeated {// add scanner class and input the words//EDIT
     public static boolean arr[] = new boolean[26];
