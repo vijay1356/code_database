@@ -1,10 +1,11 @@
 <script>
-	export let name;
+	let name = "vijaya"
+	let price = `<a href="#" onclick="alert('you are hacked !')">win price </a>`
 </script>
 
 <main>
-	<h1>Hello {name}!</h1>
-	<p>Visit the <a href="https://svelte.dev/tutorial">Svelte tutorial</a> to learn how to build Svelte apps.</p>
+	<h1>hello {name}</h1>
+	<h1>{@html price}</h1>
 </main>
 
 <style>
