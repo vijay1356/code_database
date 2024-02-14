@@ -4,11 +4,15 @@
 </script>
 
 <main>
+	<h2 class = "underline">this is a underlined text</h2>
 	<h1>hello {name}</h1>
 	<h1>{@html price}</h1>
 </main>
 
 <style>
+	.underline {
+		text-decoration: underline;
+	}
 	main {
 		text-align: center;
 		padding: 1em;
