@@ -1,35 +1,32 @@
 <script>
-	let name = "vijaya"
-	let price = `<a href="#" onclick="alert('you are hacked !')">win price </a>`
+	// import the css and js files 
+	import './flickity.pkgd.js';
+	import 'E_SVELT\b. 1st svelt app\hello-world\src\flickity.css'
+	
 </script>
 
-<main>
-	<h2 class = "underline">this is a underlined text</h2>
-	<h1>hello {name}</h1>
-	<h1>{@html price}</h1>
-</main>
+<h1>Flickity - keyhole parallax</h1>
 
-<style>
-	.underline {
-		text-decoration: underline;
-	}
-	main {
-		text-align: center;
-		padding: 1em;
-		max-width: 240px;
-		margin: 0 auto;
-	}
-
-	h1 {
-		color: #ff3e00;
-		text-transform: uppercase;
-		font-size: 4em;
-		font-weight: 100;
-	}
-
-	@media (min-width: 640px) {
-		main {
-			max-width: none;
-		}
-	}
-</style>
+<div class="carousel">
+  <div class="carousel-cell">
+    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/orange-tree.jpg" alt="orange tree" />
+  </div>
+  <div class="carousel-cell">
+    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/one-world-trade.jpg" alt="One World Trade" />
+  </div>
+  <div class="carousel-cell">
+    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/drizzle.jpg" alt="drizzle" />
+  </div>
+  <div class="carousel-cell">
+    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/cat-nose.jpg" alt="cat nose" />
+  </div>
+  <div class="carousel-cell">
+    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/contrail.jpg" alt="contrail" />
+  </div>
+  <div class="carousel-cell">
+    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/golden-hour.jpg" alt="golden hour" />
+  </div>
+  <div class="carousel-cell">
+    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/flight-formation.jpg" alt="flight formation" />
+  </div>
+</div>
