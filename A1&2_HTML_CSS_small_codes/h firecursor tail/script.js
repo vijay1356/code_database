@@ -29,6 +29,7 @@ const colors = [
 
 circles.forEach(function (circle, index) {
     circle.x = 0;
+    
     circle.y = 0;
     circle.style.backgroundColor = colors[index % colors.length];
 });
