@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open San','sans-serif';
+}
+
+:root{
+    --primary-color:black;
+    --text-color:white;
+}
+
+body{
+    min-height: 100vh;
+    background-color: var(--text-color);
+}
+
+header{
+    
+}
