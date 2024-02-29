@@ -28,7 +28,7 @@ print("""hello
 for character in a:
     print(character)
 
-# print only half or up to an index
+# print only half or up to an index slicing 
 a="apple is a fruit"
 print(a[0:7])
-print(a[:-3])
+print(a[:-3]) #python interpreter considers -3 here as len(a)-3
