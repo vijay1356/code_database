@@ -14,7 +14,7 @@ a = input("Enter the 1st number : ")
 # if u use too much of your brain and type a number it will throw an error
 b = input("enter the second number : ")
 print(a+b)
-print(a(int)+b(int))
+print(int(a)+int(b))
 
 # every string is like an array of char
 a = "harry"
