@@ -23,3 +23,12 @@ print(a[0])
 # u cant write an string in multiline directly u can use the """__""" for it
 print("""hello
     bro""")
+
+#for loop 
+for character in a:
+    print(character)
+
+# print only half or up to an index
+a="apple is a fruit"
+print(a[0:7])
+print(a[:-3])
