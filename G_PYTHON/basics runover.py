@@ -38,4 +38,5 @@ a="vijay"
 print(a.upper())#upper case 
 print(a.lower())#lower case 
 print(a.rstrip("y"))
+print(a.replace("vijay","harry"))
 print(a)#a remains the same and not be changed to upper case 
